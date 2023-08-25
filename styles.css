@@ -1,0 +1,29 @@
+body {
+    height: 1000vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.bigcontainer {
+    width: 80%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:orange;
+
+}
+
+.firstpage {
+    
+    background-color: aqua;
+}
+
