@@ -1,28 +1,24 @@
 body {
-    height: 1000vh;
-    width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin: 0px;
     font-family: 'Lato', sans-serif;
 }
 
 .bigcontainer {
-    width: 80%;
-    height: 100%;
+    width: 100%;
 }
 
 .header {
     width: 100%;
-    height: 1.5%;
+    height: 5%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color:orange;
 
 }
-
 .headertext {
     width: 50%;
     height: 100%;
@@ -30,19 +26,30 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+
+.headertext a {
+    text-decoration: none;
+    color: black;
 }
 
 .firstpage {
-    height: 10%;
+    height: 600px;
     width: 100%;
     display: flex;
-    align-items:end;
+    align-items:flex-end;
     justify-content:center;
+    margin-top: 5px;
     background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .recipepage {
-    height: 10%;
+    height: 640px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -74,6 +81,12 @@ body {
     background-color: #DADFEA;
 }
 
+.recipepage2 h1 {
+    margin:0px;
+}
+
+
+
 .text2{
     width: 50%;
     height: 10%;
@@ -85,8 +98,13 @@ body {
     margin-bottom: 100px;
 }
 
+.text2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
 .bengalcontainer {
-    height:7%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -96,7 +114,6 @@ body {
 
 .bengalcontainerreview2 {
     width: 100%;
-    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +133,8 @@ body {
     background-color: #B55A4F;
     border-radius: 25px;
     width: 20%;
-    height: 20%;
+    height: 40px;
+    margin-top: 20px;
 }
 
 .bengalcontainerreview {
@@ -126,6 +144,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .bengalcontainertext {
@@ -139,38 +158,29 @@ body {
 
 .bengalcontainertext h1{
     width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .directcontainer {
-    height: 15%;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .ingredients {
-    width: 50%;
-    height: 100%;
+    width: 45%;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
-    background-color: aquamarine;
-}
+    margin-left: 30px;
+}   
 
 .directions {
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: beige;
+
 }
 
 .directions li {
@@ -180,28 +190,29 @@ body {
 
 .text {
     width: 50%;
-    height: 10%;
     background-color: white;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
 }
 
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
 .secondpage {
-    height: 12%;
     width: 100%;
     display: flex;
     justify-content:flex-start;
     align-items:center;
     flex-direction: column;
-    margin: 0px;
 }
 
 .categories {
-    height: 50%;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,7 +220,6 @@ body {
 }
 
 .everyday {
-    height: 30%;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
@@ -221,9 +231,7 @@ body {
 }
 
 .categories2 {
-    height: 80%;
     width: 100%;
-    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +239,6 @@ body {
 }
 
 .categoriesimg {
-    height: 80%;
     width: 100%;
     background-color: white;
     display: flex;
@@ -244,7 +251,6 @@ body {
 }
 
 .categoriestext {
-    height: 20%;
     width: 100%;
     background-color: white;
     display: flex;
@@ -263,21 +269,19 @@ body {
 
 
 .foodimg:nth-child(1){
-    height: 80%;
-    width: 25%;
+
     background-image: url(../images/breakfast-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 .foodimg:nth-child(2) {
-    height: 80%;
-    width: 25%;
+
     background-image: url(../images/vegetarian-ideas.jpg);
+
+}
+
+.foodimg {
+    height: 200px;
+    width: 25%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -287,22 +291,13 @@ body {
 }
 
 .foodimg:nth-child(3) {
-    height: 80%;
-    width: 25%;
-    background-image: url(../images/breakfast-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    background-image: url(../images/coldweather.jpg);
 }
 
 
 
 
 .healthy {
-    height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -312,23 +307,17 @@ body {
 }
 
 .healthytitle {
-    height: 25%;
-    width: 98%;
+    width: 76%;
     display: flex;
     order: calc(-2);
-    margin-left: 20px;
     align-items: flex-start;
     background-color: #DADFEA;
     flex-direction:column;
-}
 
-.healthytitle p {
-    line-height: 2;
 }
 
 .health2 {
-    height: 75%;
-    width:100%;
+    width:80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -336,57 +325,38 @@ body {
 
 }
 
-.healthimg:nth-child(1){
-    height: 80%;
+.healthimg {
+    height: 200px;
     width: 20%;
-    background-image: url(../images/breakfast-ideas.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom:20px
+}
+
+.healthimg:nth-child(1){
+
+    background-image: url(../images/fajita-peppers.jpeg);
+
 }
 
 .healthimg:nth-child(2) {
-    height: 80%;
-    width: 20%;
-    background-image: url(../images/vegetarian-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    background-image: url(../images/muffins.jpeg);
 }
 
 .healthimg:nth-child(3) {
-    height: 80%;
-    width: 20%;
-    background-image: url(../images/breakfast-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    background-image: url(../images/eggplant-parmesan.jpg);
 }
 
 .healthimg:nth-child(4) {
-    height: 80%;
-    width: 20%;
-    background-image: url(../images/breakfast-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    background-image: url(../images/teriyaki_chicken.jpg);
 }
 
 .healthtext {
     width:100%;
-    height: 20%;
     background-color: white;
     display: flex;
     justify-content:center;
@@ -394,17 +364,24 @@ body {
 }
 
 .wherecontainer {
-    height: 12%;
     width: 100%;
     display: flex;
-    justify-content:flex-start;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin: 0px;
 }
 
+.wherecontainer2 {
+    width: 82%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+
+
 .wheretext {
-    height: 30%;
     width: 100%;
     display: flex;
     justify-content:center;
@@ -413,52 +390,34 @@ body {
     background-color: white;
 }
 
-.wheretext {
+.wheretext p{
     line-height: 1.5;
 }
 
 .whereimgs {
-    height: 30%;
     width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    flex-direction:row;
-    background-color: white;
-    border: black;
+    flex-direction:column;
+    margin:0px;
+    padding: 0px;
+    border:0px
 }
 
-.wherefoodimg:nth-child(1) {
-    height: 80%;
-    width: 25%;
-    background-image: url(../images/breakfast-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+.whereimgcontainer {
+    width: 30%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    border: 5px #DADFEA;
-    border-style: solid;
-}
-.wherefoodimg:nth-child(2) {
-    height: 80%;
-    width: 25%;
-    background-image: url(../images/breakfast-ideas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border: 5px #DADFEA;
-    border-style: solid;
+    align-items: center;
+    flex-direction: column;
 }
 
-.wherefoodimg:nth-child(3) {
-    height: 80%;
-    width: 25%;
-    background-image: url(../images/breakfast-ideas.jpg);
+.wherefoodimg1{
+    height: 200px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -467,23 +426,65 @@ body {
     align-items: flex-end;
     border: 5px #DADFEA;
     border-style: solid;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bestsandwichamerica.jpg);
+
+}
+.wherefoodimg2 {
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 5px #DADFEA;
+    border-style: solid;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/50bestpizzaslice.jpg);
+
+}
+
+.wherefoodimg3{
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 5px #DADFEA;
+    border-style: solid;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/cityguides.jpg);
+
 }
 
 .wheresubtitle {
-    height: 5%;
     width: 100%;
-    background-color:white;
+    background-color: white;
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction:row;
+}
+
+.wheresubtitle {
+    margin: 0px;
+    padding: 0px;
+
 }
 
 
 
 .footer {
     width: 100%;
-    height: 10%; 
+    height: 100px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,8 +503,8 @@ body {
 }
 
 .footer2 {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;    
     justify-content: space-around;
